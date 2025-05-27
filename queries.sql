@@ -61,7 +61,9 @@ INSERT INTO show_times VALUES (6, 3, '13:00');
 INSERT INTO show_times VALUES (7, 3, '18:30');
 
 
--- To list all shows at a given theatre on a specific date, we join the tables and filter by theatre and date. For example, to find all shows at “PVR Cinemas” on 2025-05-27, we can use:
+-- To list all shows at a given theatre on a specific date, we join the tables and filter by theatre and date. 
+-- For example, to find all shows at “PVR Cinemas” on 2025-05-27, we can use:
+
 SELECT
   m.title        AS Movie,
   m.language     AS Language,
